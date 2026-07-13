@@ -55,7 +55,7 @@ input,textarea{cursor:auto;font-family:inherit}
 .head-actions{display:flex;align-items:center;gap:10px}
 .burger{display:none;align-items:center;justify-content:center;width:44px;height:44px;border-radius:11px;border:1px solid rgba(255,250,233,.28);background:transparent;color:var(--cream)}
 .burger.open{background:var(--gold);color:var(--teal);border-color:var(--gold)}
-.mobile-nav{display:none;flex-direction:column;padding:6px 24px 18px;border-top:1px solid rgba(255,250,233,.12)}
+.mobile-nav{display:none;flex-direction:column;padding:6px 24px 18px;border-top:1px solid rgba(255,250,233,.12);max-height:calc(100vh - 72px);overflow-y:auto;-webkit-overflow-scrolling:touch;overscroll-behavior:contain}
 .mobile-nav.show{display:flex}
 .mobile-nav a{color:var(--cream);font-weight:600;padding:12px 4px;border-bottom:1px solid rgba(255,250,233,.08)}
 .mobile-nav a.active{color:var(--gold)}
